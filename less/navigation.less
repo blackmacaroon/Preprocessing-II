@@ -9,17 +9,23 @@
       
       div {
             width: 48%;
+
+            @media @mobile {
+                  width: 100%;
+            }
+
       }
 
       .anchors {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
       }
 
       a {
             color: black;
             font-size: 1.6rem;
             text-decoration: none;
+
       }
 
       .logo {

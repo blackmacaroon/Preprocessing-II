@@ -182,9 +182,14 @@ header {
 .nav div {
   width: 48%;
 }
+@media only screen and (min-width: 320px) and (max-width: 719px) {
+  .nav div {
+    width: 100%;
+  }
+}
 .nav .anchors {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .nav a {
   color: black;
