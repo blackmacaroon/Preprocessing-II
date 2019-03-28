@@ -179,6 +179,13 @@ header {
   align-items: center;
   padding: 20px 0;
 }
+.nav div {
+  width: 48%;
+}
+.nav .anchors {
+  display: flex;
+  justify-content: space-between;
+}
 .nav a {
   color: black;
   font-size: 1.6rem;
