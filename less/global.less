@@ -39,8 +39,17 @@ img {
   height: auto;
 }
 
+header {
+  border-bottom:  @border;
+}
+
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+
+  @media @mobile {
+    padding: 0 5%;
+  }
+  
 }
