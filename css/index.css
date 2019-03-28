@@ -179,12 +179,7 @@ header {
   width: 100%;
   margin: 0 auto;
 }
-@media only screen and (min-width: 620px) and (max-width: 959px) {
-  .container {
-    padding: 0 5%;
-  }
-}
-@media only screen and (min-width: 320px) and (max-width: 619px) {
+@media only screen and (min-width: 320px) and (max-width: 732px) {
   .container {
     padding: 0 5%;
   }
@@ -200,7 +195,7 @@ header {
 .nav div {
   width: 48%;
 }
-@media only screen and (min-width: 320px) and (max-width: 619px) {
+@media only screen and (min-width: 320px) and (max-width: 732px) {
   .nav div {
     width: 100%;
   }
@@ -214,13 +209,13 @@ header {
   font-size: 1.6rem;
   text-decoration: none;
 }
-@media only screen and (min-width: 320px) and (max-width: 619px) {
+@media only screen and (min-width: 320px) and (max-width: 732px) {
   .nav .logo {
     text-align: center;
     padding-bottom: 20px;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 619px) {
+@media only screen and (min-width: 320px) and (max-width: 732px) {
   .nav {
     flex-direction: column;
   }
@@ -262,7 +257,7 @@ header {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
-@media only screen and (min-width: 320px) and (max-width: 619px) {
+@media only screen and (min-width: 320px) and (max-width: 732px) {
   .home .content-section .text-content,
   .home .content-section .img-content {
     width: 100%;
@@ -284,7 +279,7 @@ header {
   padding-right: 1%;
   padding-left: 0;
 }
-@media only screen and (min-width: 320px) and (max-width: 619px) {
+@media only screen and (min-width: 320px) and (max-width: 732px) {
   .home .inverse-content {
     flex-direction: column-reverse;
   }
@@ -299,7 +294,7 @@ header {
 .home .content-destination .img-top {
   width: 100%;
 }
-@media only screen and (min-width: 320px) and (max-width: 619px) {
+@media only screen and (min-width: 320px) and (max-width: 732px) {
   .home .content-destination {
     width: 100%;
   }
@@ -326,7 +321,7 @@ header {
   padding: 10px 0;
   margin-top: 10px;
 }
-@media only screen and (min-width: 320px) and (max-width: 619px) {
+@media only screen and (min-width: 320px) and (max-width: 732px) {
   .home .content-pick {
     flex-direction: column;
     align-items: center;
